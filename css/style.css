@@ -3,7 +3,124 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-.tiny-font{
-	font-size:12px;
-	text-align:center;
+
+h2{
+	font-size:30px;
 }
+.link-btn{
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 1px solid #f7dce2;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, #ff1d75, #f7a385 );
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+.heading-space{
+	padding:20px 0;
+}
+.text-center{
+    text-align: center;
+}
+/*     about section   */
+
+.about-me{
+    background: url('../images/header-bg.png'); 
+    background-repeat: no-repeat;
+    min-height: 1000PX;
+}
+.about-me h1{
+    font-size: 46px;
+    color: #ff1d75;
+    letter-spacing: 3px;
+	font-weight:900;
+}
+.width-half {
+	width: 36%;
+	float: left;
+	margin: 40px auto;
+	padding: 0 100px;
+}
+.about-me img{
+    width: 100%;
+}
+.width-half p{
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+/*     about section   */
+
+/* biography section */
+.biography{
+    background: url('../images/biography-bg.png');
+    background-repeat: no-repeat;
+    min-height: 900px;
+}
+.about-myself{
+    padding-top: 100px;
+}
+/* biography section */
+
+
+/* latest-work section  */
+.latest-work{
+    background: url('../images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    min-height: 600px;
+   }
+
+.width-one-thrid{
+    width: 30%;
+    float: left;
+    margin: 0 20px;
+  }
+.width-one-thrid img{
+    width: 90%;
+    padding: 0 35px;
+   }
+/* latest-work section  */
+
+/*  client section  */
+.client{
+    background: url('../images/footer-bg.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.client p{
+	line-height: 1.5;
+    letter-spacing: 2px;
+}
+.client h4{
+	font-weight:500;
+}
+.leave-massage{
+	text-align:center;
+	background-color:#ff1d75;
+	padding:20px 30px;
+	width:35%;
+	margin:70px auto;
+	border-radius:5px;
+	color:#ffffff;
+}
+.leave-massage a{
+	text-decoration:none;
+	font-size:20px;
+	letter-spacing:1.5;
+}
+.special-font{
+	font-size:14px;
+	font-weight:300;
+	color:gray;
+	line-height: 1.5;
+    letter-spacing: 2px;
+}
+/*  client section  */
+
+/*  footer section*/
+footer{
+	padding:20px 0;
+}
+/*  footer section*/
