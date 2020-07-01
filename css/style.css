@@ -12,11 +12,13 @@ h2{
     color: #FFFFFF;
     border: 1px solid #f7dce2;
     padding: 10px 20px;
-    background-image: linear-gradient(to right, #ff1d75, #f7a385 );
+    background-image: linear-gradient( #ff1d75, #f7a385 );
     border-radius: 5px;
     margin-top: 20px;
     display: inline-block;
-
+}
+.link-btn:hover{
+	background-image: linear-gradient(#f7a385, #ff1d75 );
 }
 .heading-space{
 	padding:20px 0;
@@ -120,7 +122,19 @@ h2{
 /*  client section  */
 
 /*  footer section*/
-footer{
-	padding:20px 0;
+.footer-area{
+	background-color: #F7F9FE;
+	min-height:150px;
+	line-height: 1.5;
+    letter-spacing: 2px;
+	}
+.footer-area p{
+	color:lightsteelblue;
+	font-weight:500;
+	margin:0 70px;
+	
+}
+.text-uppercase{
+	text-transform:uppercase;
 }
 /*  footer section*/
